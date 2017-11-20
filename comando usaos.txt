@@ -1,0 +1,267 @@
+Microsoft Windows [Versión 10.0.15063]
+(c) 2017 Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\Erick>cd Documents
+
+C:\Users\Erick\Documents>mkdir ws_camera
+
+C:\Users\Erick\Documents>cd ws_camera
+
+C:\Users\Erick\Documents\ws_camera>cordova create camera com.erickma.camera Camera_project
+Creating a new cordova project.
+
+C:\Users\Erick\Documents\ws_camera>cd camera
+
+C:\Users\Erick\Documents\ws_camera\camera>git init
+Initialized empty Git repository in C:/Users/Erick/Documents/ws_camera/camera/.git/
+
+C:\Users\Erick\Documents\ws_camera\camera>git add -A
+warning: LF will be replaced by CRLF in .npmignore.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in config.xml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in hooks/README.md.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in res/README.md.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in res/screen/tizen/README.md.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in www/css/index.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in www/index.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in www/js/index.js.
+The file will have its original line endings in your working directory.
+
+C:\Users\Erick\Documents\ws_camera\camera>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   .gitignore.txt
+        new file:   .npmignore
+        new file:   config.xml
+        new file:   hooks/README.md
+        new file:   package.json
+        new file:   res/README.md
+        new file:   res/icon/android/icon-36-ldpi.png
+        new file:   res/icon/android/icon-48-mdpi.png
+        new file:   res/icon/android/icon-72-hdpi.png
+        new file:   res/icon/android/icon-96-xhdpi.png
+        new file:   res/icon/bada-wac/icon-48-type5.png
+        new file:   res/icon/bada-wac/icon-50-type3.png
+        new file:   res/icon/bada-wac/icon-80-type4.png
+        new file:   res/icon/bada/icon-128.png
+        new file:   res/icon/blackberry/icon-80.png
+        new file:   res/icon/blackberry10/icon-80.png
+        new file:   res/icon/ios/icon-57-2x.png
+        new file:   res/icon/ios/icon-57.png
+        new file:   res/icon/ios/icon-72-2x.png
+        new file:   res/icon/ios/icon-72.png
+        new file:   res/icon/tizen/icon-128.png
+        new file:   res/icon/webos/icon-64.png
+        new file:   res/icon/windows-phone/icon-173-tile.png
+        new file:   res/icon/windows-phone/icon-48.png
+        new file:   res/icon/windows-phone/icon-62-tile.png
+        new file:   res/screen/android/screen-hdpi-landscape.png
+        new file:   res/screen/android/screen-hdpi-portrait.png
+        new file:   res/screen/android/screen-ldpi-landscape.png
+        new file:   res/screen/android/screen-ldpi-portrait.png
+        new file:   res/screen/android/screen-mdpi-landscape.png
+        new file:   res/screen/android/screen-mdpi-portrait.png
+        new file:   res/screen/android/screen-xhdpi-landscape.png
+        new file:   res/screen/android/screen-xhdpi-portrait.png
+        new file:   res/screen/bada-wac/screen-type3.png
+        new file:   res/screen/bada-wac/screen-type4.png
+        new file:   res/screen/bada-wac/screen-type5.png
+        new file:   res/screen/bada/screen-portrait.png
+        new file:   res/screen/blackberry/screen-225.png
+        new file:   res/screen/blackberry10/splash-1280x768.png
+        new file:   res/screen/blackberry10/splash-720x720.png
+        new file:   res/screen/blackberry10/splash-768x1280.png
+        new file:   res/screen/ios/screen-ipad-landscape-2x.png
+        new file:   res/screen/ios/screen-ipad-landscape.png
+        new file:   res/screen/ios/screen-ipad-portrait-2x.png
+        new file:   res/screen/ios/screen-ipad-portrait.png
+        new file:   res/screen/ios/screen-iphone-landscape-2x.png
+        new file:   res/screen/ios/screen-iphone-landscape.png
+        new file:   res/screen/ios/screen-iphone-portrait-2x.png
+        new file:   res/screen/ios/screen-iphone-portrait-568h-2x.png
+        new file:   res/screen/ios/screen-iphone-portrait.png
+        new file:   res/screen/tizen/README.md
+        new file:   res/screen/webos/screen-64.png
+        new file:   res/screen/windows-phone/screen-portrait.jpg
+        new file:   www/css/index.css
+        new file:   www/img/logo.png
+        new file:   www/index.html
+        new file:   www/js/index.js
+
+
+C:\Users\Erick\Documents\ws_camera\camera>commit -m "first commit"
+"commit" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users\Erick\Documents\ws_camera\camera>git commit -m "first commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Erick@DESKTOP-7SNPJTL.(none)')
+
+C:\Users\Erick\Documents\ws_camera\camera>git config --global user.email "erickma.1234@gmail.com"
+
+C:\Users\Erick\Documents\ws_camera\camera>git config --global user.name "ericktmtgr"
+
+C:\Users\Erick\Documents\ws_camera\camera>git commit -m "first commit"
+[master (root-commit) e8a19fb] first commit
+ 57 files changed, 328 insertions(+)
+ create mode 100644 .gitignore.txt
+ create mode 100644 .npmignore
+ create mode 100644 config.xml
+ create mode 100644 hooks/README.md
+ create mode 100644 package.json
+ create mode 100644 res/README.md
+ create mode 100644 res/icon/android/icon-36-ldpi.png
+ create mode 100644 res/icon/android/icon-48-mdpi.png
+ create mode 100644 res/icon/android/icon-72-hdpi.png
+ create mode 100644 res/icon/android/icon-96-xhdpi.png
+ create mode 100644 res/icon/bada-wac/icon-48-type5.png
+ create mode 100644 res/icon/bada-wac/icon-50-type3.png
+ create mode 100644 res/icon/bada-wac/icon-80-type4.png
+ create mode 100644 res/icon/bada/icon-128.png
+ create mode 100644 res/icon/blackberry/icon-80.png
+ create mode 100644 res/icon/blackberry10/icon-80.png
+ create mode 100644 res/icon/ios/icon-57-2x.png
+ create mode 100644 res/icon/ios/icon-57.png
+ create mode 100644 res/icon/ios/icon-72-2x.png
+ create mode 100644 res/icon/ios/icon-72.png
+ create mode 100644 res/icon/tizen/icon-128.png
+ create mode 100644 res/icon/webos/icon-64.png
+ create mode 100644 res/icon/windows-phone/icon-173-tile.png
+ create mode 100644 res/icon/windows-phone/icon-48.png
+ create mode 100644 res/icon/windows-phone/icon-62-tile.png
+ create mode 100644 res/screen/android/screen-hdpi-landscape.png
+ create mode 100644 res/screen/android/screen-hdpi-portrait.png
+ create mode 100644 res/screen/android/screen-ldpi-landscape.png
+ create mode 100644 res/screen/android/screen-ldpi-portrait.png
+ create mode 100644 res/screen/android/screen-mdpi-landscape.png
+ create mode 100644 res/screen/android/screen-mdpi-portrait.png
+ create mode 100644 res/screen/android/screen-xhdpi-landscape.png
+ create mode 100644 res/screen/android/screen-xhdpi-portrait.png
+ create mode 100644 res/screen/bada-wac/screen-type3.png
+ create mode 100644 res/screen/bada-wac/screen-type4.png
+ create mode 100644 res/screen/bada-wac/screen-type5.png
+ create mode 100644 res/screen/bada/screen-portrait.png
+ create mode 100644 res/screen/blackberry/screen-225.png
+ create mode 100644 res/screen/blackberry10/splash-1280x768.png
+ create mode 100644 res/screen/blackberry10/splash-720x720.png
+ create mode 100644 res/screen/blackberry10/splash-768x1280.png
+ create mode 100644 res/screen/ios/screen-ipad-landscape-2x.png
+ create mode 100644 res/screen/ios/screen-ipad-landscape.png
+ create mode 100644 res/screen/ios/screen-ipad-portrait-2x.png
+ create mode 100644 res/screen/ios/screen-ipad-portrait.png
+ create mode 100644 res/screen/ios/screen-iphone-landscape-2x.png
+ create mode 100644 res/screen/ios/screen-iphone-landscape.png
+ create mode 100644 res/screen/ios/screen-iphone-portrait-2x.png
+ create mode 100644 res/screen/ios/screen-iphone-portrait-568h-2x.png
+ create mode 100644 res/screen/ios/screen-iphone-portrait.png
+ create mode 100644 res/screen/tizen/README.md
+ create mode 100644 res/screen/webos/screen-64.png
+ create mode 100644 res/screen/windows-phone/screen-portrait.jpg
+ create mode 100644 www/css/index.css
+ create mode 100644 www/img/logo.png
+ create mode 100644 www/index.html
+ create mode 100644 www/js/index.js
+
+C:\Users\Erick\Documents\ws_camera\camera>git remote add origin https://github.com/erickmtgr/camera_aplication.git
+
+C:\Users\Erick\Documents\ws_camera\camera>git push -u origin master
+Counting objects: 75, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (61/61), done.
+Writing objects: 100% (75/75), 9.23 MiB | 293.00 KiB/s, done.
+Total 75 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/erickmtgr/camera_aplication.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+C:\Users\Erick\Documents\ws_camera\camera>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\Erick\Documents\ws_camera\camera>git add -A
+
+C:\Users\Erick\Documents\ws_camera\camera>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\Erick\Documents\ws_camera\camera>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   .gitignore.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Erick\Documents\ws_camera\camera>git commit -m "change file"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+        modified:   .gitignore.txt
+
+no changes added to commit
+
+C:\Users\Erick\Documents\ws_camera\camera>git push -u origin master
+Everything up-to-date
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+C:\Users\Erick\Documents\ws_camera\camera>git add -A
+
+C:\Users\Erick\Documents\ws_camera\camera>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   .gitignore.txt
+
+
+C:\Users\Erick\Documents\ws_camera\camera>git commit -m "second commit"
+[master e6d5fe2] second commit
+ 1 file changed, 1 insertion(+)
+
+C:\Users\Erick\Documents\ws_camera\camera>git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 288 bytes | 288.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/erickmtgr/camera_aplication.git
+   e8a19fb..e6d5fe2  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+C:\Users\Erick\Documents\ws_camera\camera>
